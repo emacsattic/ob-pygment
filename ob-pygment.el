@@ -23,6 +23,17 @@
 ;; Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 ;; Boston, MA 02110-1301, USA.
 
+;; Examples
+;;
+;; (require 'ob-pygment)
+;;
+;; ; --- path to pygmentize
+;; (setq org-pygment-path "/usr/bin/pygmentize")
+;;
+;; (setq org-babel-load-languages (quote (pygment . t)))
+;;
+
+
 ;;; Code:
 (require 'ob)
 (require 'ob-eval)
